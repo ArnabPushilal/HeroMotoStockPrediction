@@ -1,10 +1,8 @@
-# HeroMotoStockPrediction
+# Table of Contents
+* [Motivation](https://github.com/ArnabPushilal/SpotifyProject/blob/master/README.md#Moving Average)
 
 
-  Naive Forecast
-  
- Moving Average + Smoothening
 
- Fully connected Net
 
- LSTM + dense layers
+## Moving Average
+ 
