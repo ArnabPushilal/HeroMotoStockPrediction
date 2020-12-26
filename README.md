@@ -48,5 +48,13 @@ It's about 20 years of data, I chose the closing price for prediction.
  ### LSTM
  
   ### LearningRate
+ ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/learningrate%20(4).jpg)
+ 5e-5 seems to be the best choice
+ 
+  ### Prediction
+  
+
+ ### Final Accuracy Table
+  
  
  
