@@ -19,8 +19,6 @@
 ## Motivation 
 I wanted to explore time-series data predction from the stock prices of the company I work in.
 
-### Data
-
 ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/StockData.jpg)
 
 It's about 20 years of data, I chose the closing price for prediction.
@@ -48,13 +46,14 @@ It's about 20 years of data, I chose the closing price for prediction.
  
  ## LSTM
  
-  ### LearningRate
- ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/learningrate%20(4).jpg)
+  ### Picking LearningRate
+  
+ ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/LearningRate%20(2).jpg)
    
- * 5e-5 seems to be the best choice
+ 
  
   ### Prediction
-  
+  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/LSTM.jpg)
 
  ## Final Accuracy Table
   
@@ -62,9 +61,9 @@ It's about 20 years of data, I chose the closing price for prediction.
 |--- | --- | --- |
 | Moving Average | 32488.284 | 143.392 |
 | Difference Series |  50870.056|180.291|
-| Moving Average + Difference + Smoothening|  MSE :  37266.263 | 156.276|
+| Moving Average + Difference + Smoothening|  37266.263 | 156.276|
 | Dense Network | 11013.445 | 82.419 |
-| LSTM | | |
+| LSTM | 10364.572| 80.46758|
 
 
 
