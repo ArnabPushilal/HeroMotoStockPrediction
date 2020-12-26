@@ -28,22 +28,22 @@ It's about 20 years of data, I chose the closing price for prediction.
 ## Moving Average
 
  ### Moving Average + Window
- ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/movingaverage.jpg)
+ ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/MovingAvg.jpg)
  
  We can see this just smoothenes out the data, large errors are still present
  
  ###  Difference series to account for periodic data
- ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/Differnce%20Series%20for%20Periodical%20data.jpg)
+ ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/DifferenceSeries.jpg)
  
  * Some data might be dependant on Quarter results, so I chose a period of 90 days to see if it improved my model.
  ### Moving Average + Difference 
- ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/Moving%20Average%20Plus%20Period.jpg)
+ ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/MovingAvgpluspast.jpg)
  
  ### Moving Average + Difference + Smoothening
  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/MovingAvgSmooth.jpg)
  
  ## DNN
- ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/DenseNetworkPrediction.jpg)
+ ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/DenseNetwork.jpg)
  
  
  ## LSTM
@@ -60,10 +60,10 @@ It's about 20 years of data, I chose the closing price for prediction.
   
  |Model |MSE| MAE |
 |--- | --- | --- |
-| Moving Average | 23739.32 | 120.25 |
-| Difference Series | 36026.63|149.29|
-| Moving Average + Difference + Smoothening|  25652.83 | 126.03|
-| Dense Network | 7482.84 | 66.54 |
+| Moving Average | 32488.284 | 143.392 |
+| Difference Series |  50870.056|180.291|
+| Moving Average + Difference + Smoothening|  MSE :  37266.263 | 156.276|
+| Dense Network | 11013.445 | 82.419 |
 | LSTM | | |
 
 
