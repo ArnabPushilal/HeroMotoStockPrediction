@@ -40,7 +40,7 @@ It's about 20 years of data, I chose the closing price for prediction.
  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/Moving%20Average%20Plus%20Period.jpg)
  
  ### Moving Average + Difference + Smoothening
- ![](
+ ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/MovingAvgSmooth.jpg)
  
  ## DNN
  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/DenseNetworkPrediction.jpg)
