@@ -32,12 +32,15 @@ It's about 20 years of data, I chose the closing price for prediction.
  
  We can see this just smoothenes out the data, large errors are still present
  
- ### Moving Average + Difference to account for periodic data
+ ###  Difference series to account for periodic data
  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/Differnce%20Series%20for%20Periodical%20data.jpg)
  
  * Some data might be dependant on Quarter results, so I chose a period of 90 days to see if it improved my model.
- ### Moving Average + Difference + Smoothening
+ ### Moving Average + Difference 
  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/Moving%20Average%20Plus%20Period.jpg)
+ 
+ ### Moving Average + Difference + Smoothening
+ ![](
  
  ## DNN
  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/DenseNetworkPrediction.jpg)
