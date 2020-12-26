@@ -36,10 +36,8 @@ It's about 20 years of data, I chose the closing price for prediction.
  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/Differnce%20Series%20for%20Periodical%20data.jpg)
  
  * Some data might be dependant on Quarter results, so I chose a period of 90 days to see if it improved my model.
- #### Moving Average + Smoothening
+ #### Moving Average + Difference + Smoothening
  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/Moving%20Average%20Plus%20Period.jpg)
- 
- * This looks better!
  
  ### DNN
  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/DenseNetworkPrediction.jpg)
@@ -49,12 +47,21 @@ It's about 20 years of data, I chose the closing price for prediction.
  
   ### LearningRate
  ![](https://github.com/ArnabPushilal/HeroMotoStockPrediction/blob/main/images/learningrate%20(4).jpg)
- 5e-5 seems to be the best choice
+   
+ * 5e-5 seems to be the best choice
  
   ### Prediction
   
 
  ### Final Accuracy Table
   
- 
+ |Model |MSE| MAE |
+|--- | --- | --- |
+| Moving Average | 23739.32 | 120.25 |
+| Difference Series | 36026.63|149.29|
+| Moving Average + Difference + Smoothening|  25652.83 | 126.03|
+| Dense Network | 7482.84 | 66.54 |
+
+
+
  
