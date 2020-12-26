@@ -64,6 +64,7 @@ It's about 20 years of data, I chose the closing price for prediction.
 | Difference Series | 36026.63|149.29|
 | Moving Average + Difference + Smoothening|  25652.83 | 126.03|
 | Dense Network | 7482.84 | 66.54 |
+| LSTM | | |
 
 
 
